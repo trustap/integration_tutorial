@@ -10,7 +10,7 @@ services:
           # the file isn't found in its own filesystem.
           - .:/var/www/html/public
         ports:
-          - 8082:80
+          - 8080:80
         depends_on:
           - php
           - mysql
