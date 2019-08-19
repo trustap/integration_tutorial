@@ -12,9 +12,7 @@ Running
 -------
 
 Create `config.php` from `config.sample.php` and populate the `$client_id` and
-`$client_secret` values with your Trustap client ID and secret. Then copy
-`js/trustapi_config.sample.js` to `js/trustapi_config.js` and populate the
-`clientId` value with your Trustap client ID.
+`$client_secret` values with your Trustap client ID and secret.
 
 Run `docker-compose up` to run the demo, which will be exposed at
 `http://localhost:8080`. Visit the [MySQL seed
